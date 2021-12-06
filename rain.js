@@ -131,19 +131,19 @@ function clearRegions() {
 }
 
 var audio =document.getElementById('kickpunch')
-audio = new Audio("kickpunch.wav");
+audio = new Audio("/assets/kickpunch.wav");
 document.getElementById("kickpunch").onclick = function(){
     audio.play();
 }
 
 var punchAudio =document.getElementById('punchkick')
-punchAudio = new Audio("punchkick.wav");
+punchAudio = new Audio("/assets/punchkick.wav");
 document.getElementById("punchkick").onclick = function(){
     punchAudio.play();
 }
 
 var specialAudio =document.getElementById('special')
-specialAudio = new Audio("special.wav");
+specialAudio = new Audio("/assets/special.wav");
 document.getElementById("special").onclick = function(){
     specialAudio.play();
 }
